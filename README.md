@@ -10,21 +10,6 @@ A collection of exploratory data analysis and machine learning projects, primari
 - **Tennis** — analysis notebook `tennis.ipynb` and ATP data in `Tennis Data/`.
 - **Additional modeling experiments** — `s6e9-single-xgb-cv-0-94488.ipynb` and saved prediction arrays (`oof_preds_base.npy`, `test_preds_base.npy`).
 
-## Setup
-
-The project uses Python 3.14 or newer. Dependencies are declared in `pyproject.toml` and pinned in `uv.lock`.
-
-To install the project and its dependencies with [uv](https://docs.astral.sh/uv/):
-
-```powershell
-uv sync
-```
-
-Run JupyterLab with the project environment to explore the notebooks:
-
-```powershell
-uv run --with jupyterlab jupyter lab
-```
 
 ## Repository notes
 
