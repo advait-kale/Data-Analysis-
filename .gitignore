@@ -5,9 +5,14 @@ build/
 dist/
 wheels/
 *.egg-info
+.vscode
 
+# Data
+soil-grain-size-from-photos
+deep
 # Virtual environments
 .venv
 Tennis Data
 atp_preprocessing.py
 s6e9-single-xgb-cv-0-94488.ipynb
+predicting-soil-grain-size-distributions.ipynb
